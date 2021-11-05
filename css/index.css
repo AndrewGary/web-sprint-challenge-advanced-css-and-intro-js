@@ -148,18 +148,20 @@ button:hover{
     .title-container div{
         width: 90%;
         height: 40vh;
-        /* margin-bottom: 0; */
+        margin-bottom:  1%;
     }
-
+   
     .title-container div h1{
         font-size: 4rem;
         line-height: 1.2;
         font-weight: bold;
     }
 
-    /* .title-container div hr{
+    .title-container hr{
         width: 90%;
-    } */
+        margin: 8px 0px;
+        
+    }
 
     .artists-container{
         flex-direction: column;
@@ -167,11 +169,25 @@ button:hover{
     }
     
     .artists-container .artist{
-        width: 60%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .artists-container .artist a{
+        font-size: 2rem;
     }
 
     .artists-container .artist img{
-        width: 60%;
+        width: 55%;
+        height: 20vh;
+    }
+
+    .artists-container .artist .bio{
+        font-size: 1.25rem;
+        line-height: 1.1;
+        width: 75%;
+        margin: auto;
+        margin-top: 14px;
     }
 
     
